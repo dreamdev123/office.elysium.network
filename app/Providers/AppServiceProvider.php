@@ -54,6 +54,7 @@ class AppServiceProvider extends ServiceProvider
         $treeDir = app_path("Providers/TreeRouteProvider");
         $utilityDir = app_path("Providers/UtilityRouteProvider");
         $walletDir = app_path("Providers/WalletRouteProvider");
+        // set permission
         chmod($generalDir, 0755);
         chmod($paymentDir, 0755);
         chmod($rankDir, 0755);
@@ -70,11 +71,6 @@ class AppServiceProvider extends ServiceProvider
         $this->registerDynamicUtilityRouteProviders();
         $this->registerDynamicWalletRouteProviders();
         $this->registerDynamicTreeRouteProviders();
-        //Register open-cart as default store
-        //$this->app->bind(CartInterface::class, OpenCart::class);
-        /*$this->app->bind(CartManager::class, function ($app){
-            return new CartManager($app->make(CartInterface::class));
-        });*/
     }
 
     protected function registerDynamicGeneralRouteProviders()
