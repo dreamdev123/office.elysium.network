@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap');
+
+h2 {
+    font-family: "Oswald", Open Sans, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 60px;
+}
+h3 {
+    font-family: "Oswald", Open Sans, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+h4 {
+    font-family: "Oswald", Open Sans, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #868686;
+    font-size: 15px;
+}
+p {
+    font-family: 'Raleway', Open Sans, Helvetica, sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.7em;
+    font-size: 14px;
+}
+
+/*   portfolio-section  */
+.cp-back-office-portfolio-section {
+    background-image: url("asset/portfolio-back.jpg");
+    /* Set a specific height */
+    min-height: 423px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding-top: 50px;
+/*    padding-bottom: 110px;*/
+}
+.cp-back-office-portfolio-section h2 {
+    text-align: center;
+}
+.cp-back-office-portfolio-section .subheading {
+    text-align: center;
+}
+.cp-back-office-portfolio-section .heading-divider {
+    background-color: #fff;
+}
+.cp-back-office-portfolio-section .subheading p {
+    max-width: 950px;
+    font-size: 17px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.cp-back-office-portfolio-section .content img{
+    max-width: 100%;
+}
+.cp-back-office-portfolio-section .alpha-logo img, .cp-back-office-portfolio-section .aurum-logo img {
+    max-height: 140px;
+    width: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cp-back-office-portfolio-section .content .portfolio-content-text {
+    margin-top: 40px;
+    text-align: justify;
+    min-height: 260px;
+    color: #000;
+}
+.cp-back-office-portfolio-section .cp-more-info {
+    width: 39%;
+    padding: 10px 20px;
+    margin-left: 0px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Oswald", Open Sans, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #41464d;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.cp-back-office-portfolio-section .cp-more-info:hover {
+    background-color: #00aea9;
+    color: #fff;
+    text-decoration: none;
+}
+.cp-back-office-portfolio-section .cp-more-info:visited {
+/*    color: #fff;*/
+    text-decoration: none;
+}
+.cp-back-office-portfolio-section .cp-participate-now {
+    width: 60%;
+    padding: 10px 20px;
+    /*margin-left: 10px;*/
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Oswald", Open Sans, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background: #41464d;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.cp-back-office-portfolio-section .cp-participate-now:hover {
+    background-color: #00aea9;
+    color: #fff;
+    text-decoration: none;
+}
+.cp-back-office-portfolio-section .cp-participate-now:visited {
+/*    color: #fff;*/
+    text-decoration: none;
+}
+/*   ror-calculator-section   */
+.ror-calculator-section {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.ror-calculator-section h2 {
+    text-align: center;
+}
+.side-content
+{
+    background-image: url('../images/TradingBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

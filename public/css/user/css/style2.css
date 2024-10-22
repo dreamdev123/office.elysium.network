@@ -1,0 +1,237 @@
+
+
+.capital-dashboard-new .text-data-section {
+	background-color: #dcddde;
+	padding-top: 28px;
+	padding-bottom: 28px;
+}
+
+.capital-dashboard-new .text-data-section p {
+	font-family: 'Din Pro Condensed Regular', sans-serif;
+	font-size: 18px;
+	color: #41464d;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+/*    Yearly Bar Chart Section start   */
+.capital-dashboard-new .yearly-barchart-section {
+	background-color: #fff;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.capital-dashboard-new .yearly-barchart-section .title {
+	font-family: 'DIN Pro Condensed Medium', sans-serif;
+	font-size: 21px;
+	text-transform: uppercase;
+	margin: 0;
+	color: #41464d;
+}
+.capital-dashboard-new .yearly-barchart-section p {
+	font-family: 'Din Pro Condensed Regular', sans-serif;
+	font-size: 21px;
+	text-transform: uppercase;
+	margin: 0;
+	color: #41464d;
+}
+.capital-dashboard-new .yearly-barchart-section .indicator {
+	align-items: center;
+	display: flex;
+}
+.capital-dashboard-new .yearly-barchart-section .positive-indicator span {
+	width: 18px;
+	height: 18px;
+	background-color: #00aeaa;
+	display: inline-block;
+	margin-right: 6px;
+}
+.capital-dashboard-new .yearly-barchart-section .negative-indicator span {
+	width: 18px;
+	height: 18px;
+	background-color: #41464d;
+	display: inline-block;
+	margin-right: 6px;
+}
+.capital-dashboard-new .yearly-barchart-section .chart-year {
+	font-family: 'DIN Pro Condensed Bold', sans-serif;
+	font-size: 16px;
+	color: #41464d;
+}
+.capital-dashboard-new .yearly-barchart-section .chart-area {
+	display: flex;
+}
+.capital-dashboard-new .yearly-barchart-section .month-el {
+	width: 7.69%;
+	text-align: center;
+	display: inline-block;
+}
+.capital-dashboard-new .yearly-barchart-section .month-el p {
+	font-family: 'Din Pro Condensed Regular', sans-serif;
+	font-size: 16px;
+	color: #41464d;
+}
+.capital-dashboard-new .yearly-barchart-section .month-el .year-sum {
+	font-family: 'DIN Pro Condensed Bold', sans-serif;
+}
+.capital-dashboard-new .yearly-barchart-section .bar-baseline {
+	width: 100%;
+	height: 2px;
+	background-color: #41464d;
+}
+.capital-dashboard-new .yearly-barchart-section .positive-bar-wrapper, .capital-dashboard-new .yearly-barchart-section .negative-bar-wrapper {
+	display: flex;
+}
+.capital-dashboard-new .yearly-barchart-section .positive-bar-wrapper .bar-el-wrapper {
+	padding: 1px 1px 0 1px;
+}
+.capital-dashboard-new .yearly-barchart-section .negative-bar-wrapper .bar-el-wrapper {
+	padding: 0px 1px 1px 1px;
+}
+.capital-dashboard-new .yearly-barchart-section .bar-wrapper .bar-el-wrapper span {
+	display: block;
+	width: 100%;
+	height: 100px;
+}
+.capital-dashboard-new .yearly-barchart-section .bar-wrapper .bar-el-wrapper .bar-positive {
+	background-color: #00aeaa;
+}
+.capital-dashboard-new .yearly-barchart-section .bar-wrapper .bar-el-wrapper .bar-negative {
+	background-color: #41464d;
+}
+/*    Yearly Bar Chart Section end   */
+
+/*    Monthly Slider Section start   */
+.capital-dashboard-new .monthly-slider-section {
+	background-color: #dcddde;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.capital-dashboard-new .monthly-slider-section .slider-wrapper {
+	overflow: hidden;
+	width: 100%;
+}
+.slick-prev {
+	background-image: url('../images/cp-dashboard-left-arrow.png');
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 30px;
+	border: none;
+}
+.capital-dashboard-new .monthly-slider-section .slider-wrapper .monthly-slider-el {
+	width: 12%;
+	padding: 6px;
+	display: inline-block;
+}
+.capital-dashboard-new .monthly-slider-section .slider-wrapper .monthly-slider-el .slider-inner {
+	background-color: #fff;
+	text-align: center;
+	padding: 5px 10px;
+	color: #41464d;
+}
+.capital-dashboard-new .monthly-slider-section .slider-wrapper .monthly-slider-el .slider-inner:hover {
+	cursor: pointer;
+}
+.capital-dashboard-new .monthly-slider-section .slider-wrapper .monthly-slider-el h4 {
+	font-family: 'DIN Pro Condensed Medium', sans-serif;
+	font-size: 21px;
+	text-transform: uppercase;
+	margin: 0;
+}
+.capital-dashboard-new .monthly-slider-section .slider-wrapper .monthly-slider-el p {
+	font-family: 'Din Pro Condensed Regular', sans-serif;
+	font-size: 12px;
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+.capital-dashboard-new .monthly-slider-section .slider-wrapper .monthly-slider-el .slider-inner-selected {
+	background-color: #00aeaa;
+	color: #fff;
+}
+.monthly-result-txt p{
+	font-family: 'Din Pro Condensed Regular', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #41464d;
+	margin-bottom: 0;
+}
+
+
+
+
+
+.performance-table-section {
+	background-color: #fff;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.capital-dashboard-new .performance-table-section .indicator {
+	align-items: center;
+	display: flex;
+	font-family: 'Din Pro Condensed Regular', sans-serif;
+	font-size: 21px;
+	text-transform: uppercase;
+}
+.capital-dashboard-new .performance-table-section .positive-indicator span {
+	width: 18px;
+	height: 18px;
+	background-color: #00aeaa;
+	display: inline-block;
+	margin-right: 6px;
+}
+.capital-dashboard-new .performance-table-section .negative-indicator span {
+	width: 18px;
+	height: 18px;
+	background-color: #41464d;
+	display: inline-block;
+	margin-right: 6px;
+}
+.capital-dashboard-new .performance-table-section h4 {
+	font-family: 'DIN Pro Condensed Medium', sans-serif;
+	font-size: 21px;
+	color: #41464d;
+	text-transform: uppercase;
+}
+.capital-dashboard-new .performance-table-section table {
+	width: 100%;
+	border: 1px solid #fff;
+	text-align: center;
+}
+.capital-dashboard-new .performance-table-section table td {
+	background-color: #dcddde;
+	border: 1px solid #fff;
+	width: 7.14%;
+	font-family: 'Din Pro Condensed Regular', sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+.capital-dashboard-new .performance-table-section thead td, .capital-dashboard-new .performance-table-section .year {
+	background-color: #fff;
+	color: #41464d;
+}
+.capital-dashboard-new .performance-table-section .t-positive, .capital-dashboard-new .performance-table-section .t-year-total {
+	background-color: #00aeaa;
+}
+.capital-dashboard-new .performance-table-section .t-negative {
+	background-color: #41464d;
+}
+
+
+
+
+
+.capital-dashboard-new .weekly-nav-linechart-section {
+	background-color: #dcddde;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.capital-dashboard-new .weekly-nav-linechart-section .heading-title {
+	font-family: 'DIN Pro Condensed Medium', sans-serif;
+	font-size: 21px;
+	color: #41464d;
+	text-transform: uppercase;
+}
+
+
+
+
+/*   Weekly NAV Graph Section   */

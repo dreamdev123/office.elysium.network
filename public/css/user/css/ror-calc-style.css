@@ -1,0 +1,140 @@
+
+/*   Compound Calculator */
+.compoundWrapper {
+    margin-top: 65px;
+}
+
+.compoundWrapper h1 {
+    font-size: 28px;
+    text-align: center;
+    padding: 15px 0;
+    color: #131212;
+    text-transform: uppercase;
+    font-family: 'Oswald', Open Sans, Helvetica, sans-serif;
+}
+
+select {
+    -webkit-appearance: none;        
+}
+
+.compoundWrapper .calculate label {
+    font-size: 14px;
+    padding: 0;
+    margin: 0 10px 0 0;
+    color: #131212;
+    text-transform: uppercase;
+    font-family: 'Oswald', Open Sans, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.compoundWrapper .calculate label.error-calculate {
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Oswald', Open Sans, Helvetica, sans-serif;
+    font-weight: 400;
+    background: #D22630;
+    margin: 0 0 0 auto;
+    padding: 8px 12px;
+    text-align: right;
+    width: 270px;
+    text-align: center;
+}
+
+.compoundWrapper .calculate label.valid-calculate {
+    color: #08b790;
+}
+
+.compoundWrapper .calculate .form-control {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    text-align: left;
+    padding: 5px 10px 5px 10px;
+    margin: 0;
+    border-radius: 0;
+    color: #131212;
+    text-transform: uppercase;
+    font-family: 'Oswald', Open Sans, Helvetica, sans-serif;
+    font-weight: 500;
+    width: 237px;
+}
+
+.compoundWrapper .calculate input.form-control.error-calculate {
+    border-color: #D22630 !important;
+}
+
+.compoundWrapper .calculate input.form-control.valid-calculate {
+    border-color: #00afaa !important;
+}
+
+.compoundWrapper .calculate select.form-control {
+    display: inline-block;
+    font-size: 14px;
+    text-align: left;
+    padding: 4px 32px 4px 10px;
+    margin: 0;
+    border-radius: 0;
+    color: #131212;
+    text-transform: uppercase;
+    font-family: 'Oswald', Open Sans, Helvetica, sans-serif;
+    font-weight: 500;
+    background-color: #10182029;
+    width: auto;
+}
+
+.compoundWrapper .calculate .form-control.mr {
+    margin-right: -5px;
+}
+
+.compoundWrapper .calculate .form-control.ml {
+    margin-left: -5px;
+}
+
+.compoundWrapper .calculate .form-control.full {
+    width: 202px;
+}
+
+.compoundWrapper .calculate .form-control.info {
+    width: 34px;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    text-transform: none;
+    background-color: #10182029;
+}
+
+.compoundWrapper .result .offset-lg-3 {
+    margin-left: 15.5%;
+}
+
+.compoundWrapper .ror-calc-aligner {
+    text-align: right;
+}
+.roi-calc-custom-select {
+    background-image: url('{{asset('images/sel-arrow.png')}}');
+    background-repeat: no-repeat;
+    background-size: 12px 20px;
+    background-position: right center;
+}
+
+@media (max-width: 540px) {
+    .compoundWrapper .ror-calc-aligner {
+        text-align: center;
+    }
+
+    .compoundWrapper .calculate label {
+        display: block;
+    }
+     .compoundWrapper .result .offset-lg-3 {
+        margin-left: 15px;
+    }
+}
+.compoundWrapper .result {
+    margin: 40px 0 0;
+    font-family: 'calibri', sans-serif !important;
+    font-size: 16px !important;
+}
+
+.compoundWrapper .result p {
+    font-size: 16px !important;
+}

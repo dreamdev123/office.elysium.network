@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'DIN Pro Regular';
+  src: url('../fonts/DinPro/DINPro.otf');
+}
+
+@font-face {
+  font-family: 'DIN Pro Light';
+  src: url('../fonts/DinPro/DINPro-Light.otf');
+}
+
+@font-face {
+  font-family: 'DIN Pro Bold';
+  src: url('../fonts/DinPro/DINPro-Bold.otf');
+}
+
+@font-face {
+  font-family: 'DIN Pro Condensed Regular';
+  src: url('../fonts/DinPro/DINPro-Cond.otf');
+}
+
+@font-face {
+  font-family: 'DIN Pro Condensed Light';
+  src: url('../fonts/DinPro/DINPro-CondLight.otf');
+}
+
+@font-face {
+  font-family: 'DIN Pro Condensed Medium';
+  src: url('../fonts/DinPro/DINPro-CondMedium.otf');
+}
+
+@font-face {
+  font-family: 'DIN Pro Condensed Bold';
+  src: url('../fonts/DinPro/DINPro-CondBold.otf');
+}
+
+@font-face {
+  font-family: 'Raleway Regular';
+  src: url('../fonts/raleway/Raleway-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway Medium';
+  src: url('../fonts/raleway/Raleway-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway Light';
+  src: url('../fonts/raleway/Raleway-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Raleway Bold';
+  src: url('../fonts/raleway/Raleway-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Kulim Park SemiBold';
+  src: url('../fonts/KulimPark/KulimPark-SemiBold.ttf');
+}
