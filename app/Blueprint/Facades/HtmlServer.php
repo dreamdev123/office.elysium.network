@@ -1,6 +1,5 @@
 <?php
 /**
- * @author Acemero Technologies Pvt Ltd
  * @link https://www.acemero.com
  * @see https://www.hybridmlm.io
  * @version 1.00
